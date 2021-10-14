@@ -1,0 +1,252 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA
+    
+;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background: #ffff;
+    margin: 40px;
+}
+
+    .about-me {
+        padding-left: 90px;
+        padding-bottom: 25px;
+        padding-top: 90px;
+        padding-right: 90px;
+        color: #000;
+    }
+
+    .profession {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 55px;
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    .description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        width: 400px;
+        height: 120px;
+        left: 498px;
+        top: 252px;
+        margin-bottom: 25px;
+    }
+
+
+
+.main-content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+    /* професійні навички */
+
+.skills {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+    
+}
+        .skills-list {
+            padding: 0 0 0 17px;
+        }
+
+        .skills-number {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .skills-items {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+/* or 171% */
+
+
+color: #595959;
+        }
+
+/* досвід */
+.experience {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+    .experience-list {
+        padding: 0 0 0 0px;
+    }
+    .company {
+        display: flex;
+        flex-direction: row;
+       margin: 0;
+       
+    }
+
+    .company-profession {
+        margin: auto 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+       
+    }
+
+    .company-name {
+        margin: auto 0;
+        padding-left: 5px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FB6D3A;
+       
+        
+    }
+
+    .time {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A8A8A8;
+        
+
+    }
+
+    .line {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: black;
+    }
+
+    .work-items {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+    }
+
+    .work-goals {
+        padding-left: 19px;
+    }
+/* освіта */
+.education {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 40px;
+}
+
+.university {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    padding: 0;
+}
+
+.speciality {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 0;
+}
+
+
+/* сайдбар */
+
+    .sidebar {
+        background: #1E2939;
+        flex-direction: row;
+        width: 370px;
+        padding-top: 40px;
+        
+    }
+        /* заголовки сайдбара */
+        .sidebar-title {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+            /* части сайдбара */
+
+                /* контакти */
+                .contacts {
+                    margin: 50px 0 0 40px;
+                }
+                    .contacts-type {
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-right: 5px;
+                        color: white;
+                    }
+
+                    .contacts-link {
+                        color:#565E6A;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        padding-right: 40px;
+                    }
+
+
+            .hobby{
+                margin: 50px 0 0 40px;
+                padding-right: 40px;
+            }
+                .side-lists {
+                    padding: 0 0 0 17px;
+                }
+
+                .side-items {
+                    color: #FB6D3A;
+                }
+
+                .side-items-text {
+                    color: white;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            .personal-skills{
+                margin: 50px 0 0 40px; 
+                padding-right: 40px;  
+            }
